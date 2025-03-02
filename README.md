@@ -3,6 +3,8 @@
 ## Overview
 This repository contains a Question-Answering (Q/A) system that leverages LangChain Core to retrieve and answer user queries based on the content of the Wikipedia page on Generative Artificial Intelligence. The solution incorporates data retrieval, caching, structured function calling, and callback handling to ensure efficient and accurate responses.
 
+The application is deployed on Hugging Face Spaces and can be accessed [here](https://huggingface.co/spaces/ShubhamGaur/GenerativeAI-QA-Using-LangChain).
+
 ## Features
 - **Data Retrieval:** Fetches content from Wikipedia using LangChain's `WikipediaLoader`.
 - **Q/A Processing:** Builds a conversational Q/A system using LangChain’s `ConversationalRetrievalChain`.
